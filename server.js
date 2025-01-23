@@ -5,6 +5,7 @@ const bodyParser = require('body-parser');
 const cors = require('cors');
 
 const authRoutes = require('./routes/authRoutes');
+const MONGO_URI = "mongodb://localhost:27017/blogDB";
 
 const app = express();
 app.use(cors());
